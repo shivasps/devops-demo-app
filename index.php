@@ -3,7 +3,7 @@
 $config = parse_ini_file('config.ini');
 
 // Declare Variables
-$dbSuccess = false;1
+$dbSuccess = false;
 $dbVersion = false;
 
 // Connect to SQL Server
