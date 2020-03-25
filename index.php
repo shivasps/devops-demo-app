@@ -3,7 +3,7 @@
 $config = parse_ini_file('config.ini');
 
 // Declare Variables
-$dbSuccess = false;
+$dbSuccess = false;1
 $dbVersion = false;
 
 // Connect to SQL Server
@@ -74,7 +74,7 @@ $conn->close(); ?>
                     </span>
                 </h3>
                 <h3>Environment: <span class="label label-info"><?php echo $config['environment'] ?></span></h3>
-                <h3>Application Version: <span class="label label-info">1.7</span></h3>
+                <h3>Application Version: <span class="label label-info">1.8</span></h3>
                 <h3>Database Scripts Version: <?php
                         if ($dbVersion) {echo '<span class="label label-info">'. $dbVersion;}
                         else {echo '<span class="label label-danger">Failed to load version data';}
